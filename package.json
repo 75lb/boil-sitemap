@@ -1,0 +1,15 @@
+{
+  "name": "boil-sitemap",
+  "version": "0.0.0",
+  "bin": {
+    "sitemap": "bin/cli.js"
+  },
+  "description": "Static website sitemap.xml generator",
+  "author": "Lloyd Brookes",
+  "dependencies": {
+    "boil-js": "~0.0.0",
+    "config-master": "~0.1.1",
+    "more-fs": "~0.3.1",
+    "nature": "~0.4.3"
+  }
+}

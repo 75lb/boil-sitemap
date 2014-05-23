@@ -1,0 +1,12 @@
+[
+    { 
+        "files": [ "test/blah.html" ], 
+        "prefix": "http://www.blah.jp/",
+        "changefreq": "daily"
+    },
+    { 
+        "files": [ "test/one/*.html" ], 
+        "prefix": "http://www.blah.jp/",
+        "changefreq": "monthly"
+    }
+]

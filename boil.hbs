@@ -1,0 +1,14 @@
+{
+  "sitemap": {
+    "template": {{{JSONstringify (read "template.hbs")}}},
+    "data": {
+        "urls": [{{#each (fileset files "files")}}
+            {
+                "loc": "{{prefix}}{{{this}}}",
+                "lastmod": "2015-10-01",
+                "changefreq": "daily"
+            },
+        {{/each}}]
+    }
+  }
+}
