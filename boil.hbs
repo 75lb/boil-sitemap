@@ -1,6 +1,7 @@
+{{log this}}
 {
   "sitemap": {
-    "template": {{{JSONstringify (read "template.hbs")}}},
+    "template": {{{JSONstringify (read templatePath)}}},
     "data": {
         "urls": [{{#each (read (fileset files "files"))}}
             {

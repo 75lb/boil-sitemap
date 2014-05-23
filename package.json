@@ -5,6 +5,7 @@
     "sitemap": "bin/cli.js"
   },
   "description": "Static website sitemap.xml generator",
+  "repository": "https://github.com/75lb/boil-sitemap",
   "author": "Lloyd Brookes",
   "dependencies": {
     "boil-js": "~0.0.0",
