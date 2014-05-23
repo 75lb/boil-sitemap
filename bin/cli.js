@@ -18,5 +18,4 @@ boilHbs = boil.render(boilHbs, {
     templatePath: path.join(__dirname, "..", "template.hbs")
 });
 var config = JSON.parse(boilHbs);
-console.log(config)
 boil.renderRecipe(config, "sitemap");
