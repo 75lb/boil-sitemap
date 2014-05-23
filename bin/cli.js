@@ -13,6 +13,5 @@ var argv = new Model()
     
 var boilHbs = mfs.read(path.join(__dirname, "..", "boil.hbs"));
 boilHbs = boil.render(boilHbs, { files: argv.files, prefix: argv.prefix });
-console.log(boilHbs)
 var config = JSON.parse(boilHbs);
 boil.renderRecipe(config, "sitemap");
