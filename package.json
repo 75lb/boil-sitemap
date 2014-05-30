@@ -9,8 +9,8 @@
   "author": "Lloyd Brookes",
   "dependencies": {
     "boil-js": "~0.0.0",
+    "command-line-args": "~0.1",
     "config-master": "~0.1.1",
-    "more-fs": "~0.3.1",
-    "nature": "~0.4.3"
+    "more-fs": "~0.3.1"
   }
 }
