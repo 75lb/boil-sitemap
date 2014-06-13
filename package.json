@@ -8,9 +8,9 @@
   "repository": "https://github.com/75lb/boil-sitemap",
   "author": "Lloyd Brookes",
   "dependencies": {
-    "boil-js": "~0.0.0",
-    "command-line-args": "~0.1",
+    "boil-js": "^0.1.0",
+    "command-line-args": "~0.2",
     "config-master": "~0.1.1",
-    "more-fs": "~0.3.1"
+    "more-fs": "~0.4.0"
   }
 }
