@@ -1,6 +1,6 @@
 {
   "name": "boil-sitemap",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "bin": {
     "sitemap": "bin/cli.js"
   },
