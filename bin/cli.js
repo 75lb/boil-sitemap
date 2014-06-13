@@ -2,7 +2,6 @@
 "use strict";
 var mfs = require("more-fs"),
     path = require("path"),
-    loadConfig = require("config-master"),
     boil = require("boil-js"),
     cliArgs = require("command-line-args");
 

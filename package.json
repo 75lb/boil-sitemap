@@ -10,7 +10,6 @@
   "dependencies": {
     "boil-js": "^0.1.0",
     "command-line-args": "~0.2",
-    "config-master": "~0.1.1",
     "more-fs": "~0.4.0"
   }
 }
