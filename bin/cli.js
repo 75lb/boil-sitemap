@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 "use strict";
-var mfs = require("more-fs"),
-    path = require("path"),
-    boil = require("boil-js"),
-    cliArgs = require("command-line-args");
+var mfs = require("more-fs");
+var path = require("path");
+var boil = require("boil");
+var cliArgs = require("command-line-args");
 
 var argv = cliArgs([
     { name: "files", type: Array, defaultOption: true },
@@ -19,4 +19,4 @@ boilHbs = boil.render(boilHbs, {
     templatePath: path.join(__dirname, "..", "template.hbs")
 });
 var config = JSON.parse(boilHbs);
-boil.renderRecipe(config, "sitemap");
+boil.renderRecipe(config, argv, "sitemap");

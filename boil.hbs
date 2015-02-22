@@ -1,11 +1,11 @@
 {
   "sitemap": {
-    "template": {{{JSONstringify (read templatePath)}}},
+    "template": {{{json-stringify (fs-readFile templatePath)}}},
     "data": {
-        "urls": [{{#each (read (fileset files "files"))}}
+        "urls": [{{#each (fs-readFile (fileset files "files"))}}
             {
                 "loc": "{{../prefix}}{{{filename}}}",
-                "lastmod": {{{JSONstringify modified}}},
+                "lastmod": {{{json-stringify modified}}},
                 "changefreq": "{{../changefreq}}"
             }{{#unless @last}},{{/unless}}
         {{/each}}]
